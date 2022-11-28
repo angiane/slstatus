@@ -67,7 +67,7 @@ static const struct arg args[] = {
 	/* function format          argument */
 	{ netspeed_tx, " ﰵ %s ",             "wlp7s0"             },
 	{ netspeed_rx, " ﰬ %s ",             "wlp7s0"             },
-	{ ram_perc,    "  %s%%",              NULL               },
+	{ ram_perc,    "  %s%% ",             NULL               },
 	{ cpu_perc,    "  %s%% ",             NULL               },
 	{ run_command, " %s ",  "sh ./scripts/print_volume.sh"    },
 	{ run_command, " %s ",  "sh ./scripts/print_microphone.sh"},
