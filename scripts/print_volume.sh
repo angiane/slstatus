@@ -12,7 +12,7 @@ print_volume() {
 				echo 'ﱝ'
 				;;
 			*)
-				echo "墳 $(amixer get Master | awk -F '[][]' ' /Mono:/ {print $1}' | awk -F ' ' '{print $3}')%"
+				echo "墳 $(amixer get Master | awk -F '[][]' ' /Mono:/ {print $2}')"
 		esac
 	fi
 }
